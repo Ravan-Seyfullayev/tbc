@@ -11,7 +11,7 @@
         <h2>Daxil ol</h2>
         <label for="name">Ad</label>
         <input type="text">
-        <label for="password">Parol</label>
+        <label for="password">Paro</label>
         <input type="password">
     </div>
 </body>
