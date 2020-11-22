@@ -3,6 +3,39 @@
     padding: 0;
 }
 .signIn {
-    margin-left: 35%;
-    display: block;
+    margin-left: 36%;
+    border: 2px solid black;
+    width: 205px;
+    padding: 0 100px 50px 100px;
+    margin-top: 6%;
+    border-radius:10px ;
+}
+input,h2 {
+    margin-top: 20px;
+}
+input {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+label {
+    margin-top: 5px;
+}
+h2 {
+    margin-left: 60px;
+}
+button {
+    background: none;
+    border: 2px solid lightblue;
+    margin-top: 40px;
+    width: 150px;
+    height: 60px;
+    border-radius:10px;
+    font-size: 30px;
+    color: black;
+}
+button:hover {
+    background-color: lightblue;
+    color: ;
+    cursor: pointer;
 }

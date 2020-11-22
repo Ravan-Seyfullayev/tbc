@@ -9,10 +9,12 @@
 <body>
     <div class="signIn">
         <h2>Daxil ol</h2>
-        <label for="name">Ad</label>
+        <label for="name">Ad: </label>
         <input type="text">
-        <label for="password">Paro</label>
+        <br>
+        <label for="password">Parol: </label>
         <input type="password">
+        <button>Daxil ol</button>
     </div>
 </body>
 </html>
