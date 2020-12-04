@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.post {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+
+}
+body {
+    width:auto;
+    zoom: 0%;
+}
+
+
+.postimage {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+}
+.author {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text {
+    font-size: 25px;
+}
+form {
+   margin-top: 50px;
+    width: 500px;
+    margin-left: 5%;
+
+}
+.comment {
+    width: 500px; 
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+label {
+    font-size: 20px; 
+
+}
+label:after {
+    content: ':';
+}
+.postcomment {
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.postcomment:hover {
+    cursor: pointer;
+    background: cadetblue;
+    color: white;
+}
+.commentW {
+    width: 90%;
+    display: block;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 40px 0 40px 0;
+    border-radius: 10px;
+}
+.username {
+    font-size: 30px;
+}   
+.username:after {
+    content: ':';
+}
+.commentR {
+    font-size: 24px;
+}
+.commentR:before {
+    content: '-';
+}
+.commentD {
+    display: inline;      
+}
+.reyler {
+    width: auto;
+    text-align: center;
+}
+@media only screen and (max-width: 550px) {
+    body {
+        position: absolute;
+    }
+    .postimage {
+        height: 300px;
+    }
+    .postcomment {
+        font-size: 25px;
+    }
+    .comment,label, .authorT, .textT {
+        font-size: 40px;
+    }
+    .author,h1 {
+        font-size: 50px;
+    }
+    .text {
+        font-size: 30px;
+    }
+
+}

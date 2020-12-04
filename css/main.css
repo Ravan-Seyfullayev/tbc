@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+  zoom: 0%;
+}
+.navA {
+  font-family: serif;
+}
+nav {
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+.logo {
+  color: white;
+  font-size: 45px;
+  line-height: 80px;
+  padding: 0 40px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.profile {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.postBtn {
+    background: none;
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.postBtn a {
+  text-decoration: none;
+  color: black;
+}
+.postBtn:hover {
+  background-color: lightcyan;
+  cursor: pointer;
+}
+.text {
+  font-size: 20px;
+}
+.postimage {
+  width: 25em;
+}
+.post {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px 20px 5px 20px;
+  background-color: lightcyan;
+  text-align: center;
+}
+.author {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.etrafli {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;  
+}
+.etrafli:hover {
+  color: rgb(70, 70, 70);
+}
+@media only screen and (max-width: 1150px) {
+  
+  .dropbtn {
+    font-size: 40 px;
+  }
+  #bars {
+    display: block;
+  }
+
+}
+@media only screen and (max-width: 900px) {
+  .dropbtn {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .dropbtn {
+    font-size: 40px;
+  }
+}  
+@media only screen and (max-width: 550px) {
+  .dropbtn {
+    font-size: 20px;
+  }
+  .postBtn {
+    font-size: 20px;
+  }
+  nav ul li a {
+    background-color: white;
+    color: #0082e6;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+  nav ul li a:hover {
+    background-color:#0082e6;
+    color:  white;
+    border: 2px solid black;
+    border: none;
+
+  }
+}
+@media only screen and (max-width: 450px) {
+  body {
+    width: auto;
+    position: absolute;     
+  }
+  .dropbtn {
+    font-size: 20px;
+  }
+}
+

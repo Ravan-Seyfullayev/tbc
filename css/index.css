@@ -2,13 +2,20 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background: rgb(2,0,36);
+background: #ECEDF0
+}
 .signIn {
-    margin-left: 36%;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid black;
     width: 205px;
     padding: 0 100px 50px 100px;
-    margin-top: 6%;
+    margin-top: 10%;
     border-radius:10px ;
+    background: white;
+    
 }
 input,h2 {
     margin-top: 20px;
@@ -38,4 +45,6 @@ button:hover {
     background-color: lightblue;
     color: ;
     cursor: pointer;
-}
+} 
+
+
